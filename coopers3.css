@@ -1,0 +1,299 @@
+    
+    /* Hours of Operation styles */
+.title {
+    text-decoration: underline;
+}
+@media (max-width: 500px) {
+    .col-sm-4 {
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) {
+    .title {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 500px) {
+    .title {
+        font-size: 1rem;
+    }
+}
+
+
+
+/* image of Beth */
+img {
+    float: left;
+
+}
+.beth {
+    width: 200px;
+    height: auto;
+   
+}
+@media (max-width: 500px) {
+    img.beth {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .caption {
+        text-align: center;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+}
+
+    /* Welcome jumbotron */
+.jumbotron h1 {
+    font-size: 3em;
+    text-decoration: underline;
+}
+@media (max-width:1000px) {
+    .jumbotron h1 {
+        font-size: 2em;
+    }
+}
+@media (max-width:770px) {
+   .jumbotron h1 {
+        font-size: 1.5em;
+    }
+}
+@media (max-width:500px) {
+    .jumbotron h1 {
+        font-size: 1em !important;
+    }
+}
+
+
+.jumbotron h1 {
+    color:black;
+    font-size: 48px;
+    font-weight: bold;
+    font-family:'Shift', sans-serif;
+    text-align: center;
+  
+    }
+
+
+
+@media (max-width: 500px) {
+.jumbotron p {
+    font-size: 1em;
+    text-align: center;
+}
+}
+.jumbotron {
+    margin-bottom: 0 !important; 
+
+}
+/*   //Welcome jumbotron */
+
+
+     /*  Background Image CSS */
+
+.background-image {
+    position: relative;
+    margin-bottom: 30px;
+    min-width: 100%;
+    min-height: 100%;
+   width: auto;
+   height: auto;
+   opacity: .6
+}
+
+/* This is code for centering the words in the image */
+.text-block {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    text-shadow: 4px 4px 6px #2e2727;
+} 
+
+@media (max-width: 1000px) {
+    .text-block {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .text-block {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 50%;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        text-shadow: 4px 4px 6px #2e2727;
+    } 
+    }
+}
+
+
+
+
+
+
+    /* This is for the paragraphs in first jumbotron */
+
+    .slogan, .address {
+        font-size: 2em !important;
+    }
+    @media (max-width: 1000px) {
+        #trial {
+         font-size: 25px !important;
+         text-align: center;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+     }
+    @media (max-width: 500px) {
+       #trial {
+        font-size: 15px !important;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+    }
+    /* /// This is for the paragraphs in first jumbotron */
+
+
+    /*  Nav Brand (The coopers on the left side)  */
+
+.navbar-brand {
+    font-size: 2em !important;
+}
+@media (max-width:500px) {
+    .navbar-brand {
+    font-size: 1em !important;
+    }
+}
+.nav-item:hover {
+    background-color: red;
+    opacity: 0.8;
+    border-radius: 10px;
+    }
+
+
+    #bottom-nav:hover {
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        border-radius: 10px;
+        }
+
+    /* This is for Coopers Restaurant heading */
+#top-part {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white !important;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+#top-part {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+@media (max-width: 500px) {
+    #top-part {
+        font-size: 1.5em;
+ }
+     /* ////This is for Coopers Restaurant heading */
+
+
+
+
+/* footer content  */
+@media (max-width: 500px) {
+.my-footer {
+    text-align: center;
+}
+}
+
+
+
+@media (max-width: 580px) {
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+}
+
+@media (max-width:480px) {
+    .container {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+    }
+    }
+
+    @media (max-width:400px) {
+        .container {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+        }
+        }
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

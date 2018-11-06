@@ -1,0 +1,139 @@
+form {
+	margin-bottom: 60px;
+}
+
+.type {
+    text-align: center;
+}
+
+.checkboxes {
+    text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font: bolder;
+    font-size: 2em;
+}
+
+.top-label {
+    text-align: center;
+    font-size: 2.5em;
+    font: bolder;
+    font-family: 'Lora',sans-serif;
+    color: red;
+    text-decoration: underline;
+}
+
+input,
+textarea {
+  font-size: 1em;
+  color: black;
+  font-weight: 300; 
+  width: 100%;
+  border: none;
+  height: auto;
+  padding: 15px;
+  outline: 0;
+  margin-bottom: 1.2em;
+  border-radius: .3em;
+  border-bottom: 3px solid rgba(0,0,0, 0.05);
+  background-color: #e8eeef;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+label {
+    display: block;
+    margin-bottom: 0.5em; 
+  }
+
+
+  /* Base Styles -------------------- */
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	color: #384047;
+	padding: 40px 0 60px;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dotted rgba(0, 0, 0, 0.2);
+  margin: 50px 0;
+}
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+/* Media Queries */
+
+
+@media (max-width: 768px) {
+	#container {
+		width: 92%;
+	}
+}
+
+@media (max-width: 756px) {
+.inln {
+    width: auto;
+    display: block;  /*this controls the display of buttons, if page is smaller.*/
+}
+
+
+}
+/* CSS Selectors */
+div[id="container"] {
+    max-width: 500px;
+    margin: auto;
+    color: green;
+}
+/* This is coding all the form info in container ID. It moved the form and select menu, to the middle. */
+ 
+
+/* This is turning the cursor to a pointer when hovered over */
+
+/* DRY classes */
+
+.br {
+    border-radius: .5em;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: .875em;
+    font-weight: 400;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    background-color: green;
+  
+}
+.btn:hover {
+    opacity: .75;
+}
+.default {
+    background-color: green;
+}
+
+.error {
+    background-color: red;
+}
+/* This is dry classes, mainly for my button/submit coding */
+
+/* Combinators */
+
+form > a {         /* code for forgot password*/
+    font-size: .7em;
+    margin-left: 20px;
+}
+.btn + .btn {
+    margin-left: 20px;
+}
+
+input[type="checkbox"]:checked + label {
+    color: green;
+    font-weight: bold;    /* code, for when selecting a checkbox, changes the bold and font weight.*/
+}

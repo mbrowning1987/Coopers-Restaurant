@@ -1,0 +1,351 @@
+/* Top Jumbotron  */
+
+#top-order {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+#main-top {
+    font-size: 60px;
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+
+ #second-top {
+     font-size: 45px;
+}
+
+.price {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: green;
+}
+
+
+/* MEDIA QUERIES Top to Bottom */
+/* For main hearder Order online */
+@media  (max-width: 980px) { 
+    #main-top {
+        font-size: 50px;
+    }
+    }
+@media  (max-width: 736px) { 
+    #main-top {
+        font-size: 40px;
+    }
+}
+@media  (max-width: 480px) { 
+    #main-top {
+        font-size: 25px;
+    }
+ }
+
+/* For the seconf header */
+
+@media  (max-width: 980px) { 
+    #second-top {
+        font-size: 40px;
+    }
+}
+@media  (max-width: 736px) { 
+    #second-top {
+        font-size: 30px;
+    }
+ }
+@media  (max-width: 480px) { 
+    #second-top {
+        font-size: 20px;
+    }
+ }
+
+
+
+
+/* /Jumbotron */
+
+/* things coding */
+.thing {
+    background-color: green;
+    color: black;
+}
+
+/*  // thing coding */
+
+
+/*  Code for sizing images to be the same */
+
+
+/* .card-img-top {
+    height: 145px;
+    width: 155px;
+} */
+
+/*   Code for Card-deck */
+ .card-deck {
+     padding-top: 30px;
+     padding-bottom: 20px;
+ }
+
+/*  /End code for Card-deck */
+
+
+/* submit code */
+.submit {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+
+/*   Code for Card */
+.card {
+   border-color: green !important;
+}
+
+/*  /End code for Card-deck */
+
+/* Heading for Breakfast */
+#breakfast {
+    text-align: center;
+}
+.breakfast-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+.breakfast-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* /heading for breakfast */
+
+/* Heading for Sanwiches */
+#hotdogs {
+    text-align: center;
+}
+.hotdog-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+
+}
+
+.hotdog-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* /heading for Sandwiches */
+
+/* Heading for Hot dogs */
+#sandwiches {
+    text-align: center;
+}
+.sandwich-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+}
+.sandwich-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* /heading for Hotdogs */
+/* Seafood Platter */
+#seafood {
+    text-align: center;
+}
+.seafood-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+
+}
+
+.seafood-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* // End Seafood Platter */
+
+/* Chicken and Buckets */
+#chicken {
+    text-align: center;
+}
+.chicken-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+}
+.chicken-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* // End Chicken and Buckets */
+
+/* Salads */
+#salad {
+    text-align: center;
+}
+.salad-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+}
+.salad-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* // End salads */
+
+/* Sides and extras */
+#sides {
+    text-align: center;
+}
+.sides-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+}
+.sides-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* // End sides and extras */
+
+
+/* drinks */
+#drink {
+    text-align: center;
+}
+.drink-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+}
+.drink-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* // End drinks */
+
+/* Shakes */
+#shakes {
+    text-align: center;
+}
+.shakes-head {
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+    padding-top: 20px;
+}
+.shakes-second {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* // End Shakes */
+
+
+/* MEDIA QUERIES for h1 except first one */
+
+@media  (max-width: 980px) { 
+  .breakfast-head, .salad-head, .sandwich-head, .sides-head, .seafood-head, .shakes-head, .chicken-head, .drink-head {
+        font-size: 30px;
+    }
+    }
+@media  (max-width: 736px) { 
+    .breakfast-head, .salad-head, .sandwich-head, .seafood-head, .sides-head,  .shakes-head, .chicken-head, .drink-head {
+        font-size: 20px;
+    }
+}
+@media  (max-width: 480px) {
+    .breakfast-head, .salad-head, .sides-head, .seafood-head, .sanwich-head, .shakes-head, .chicken-head, .drink-head 
+     {
+        font-size: 15px;
+    }
+ }
+
+/* Media Queries for all the p seconds */
+
+@media  (max-width: 980px) { 
+    .breakfast-second, .salad-second, .sandwich-second, .shakes-second, .sides-second, .seafood-head .chicken-second, .drink-second {
+          font-size: 15px;
+      }
+      }
+  @media  (max-width: 736px) { 
+     {
+          font-size: 12px;
+      }
+  }
+  @media  (max-width: 480px) {
+    .breakfast-second, .salad-second, .sandwich-second, .shakes-second, .seafood-second, .sides-second, .chicken-second, .drink-second { 
+          font-size: 10px;
+      }
+   }
+
+
+   @media  (max-width: 980px) { 
+    .breakfast-second, .salad-second, .sandwich-second, .shakes-second, .sides-second, .seafood-head .chicken-second, .drink-second {
+          font-size: 15px;
+      }
+      }
+  @media  (max-width: 736px) { 
+    .breakfast-second, .salad-second, .sandwich-second, .shakes-second, .seafood-second, .sides-second, .chicken-second, .drink-second {
+          font-size: 12px;
+      }
+  }
+  @media  (max-width: 480px) {
+    .breakfast-second, .salad-second, .sandwich-second, .shakes-second, .seafood-second, .sides-second, .chicken-second, .drink-second { 
+          font-size: 10px;
+      }
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
