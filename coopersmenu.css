@@ -68,6 +68,11 @@ h5 {
 
 @media (max-width: 770px) {
     p {
+        font-size: 15px;
+    }
+}
+@media (max-width: 500px) {
+    p {
         font-size: 10px;
     }
 }
