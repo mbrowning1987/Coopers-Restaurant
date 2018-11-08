@@ -39,6 +39,11 @@ h1 {
  
 }
 
+h5 {
+    text-decoration: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+}
 
 /* Media Queries*/
 
