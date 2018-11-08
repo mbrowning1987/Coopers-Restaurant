@@ -122,9 +122,6 @@ img {
            min-height: 150px;
         }
     }
-    
-
-
 /* .background-image {
     position: relative;
     margin-bottom: 30px;
@@ -147,7 +144,7 @@ img {
     text-shadow: 4px 4px 6px #2e2727;
 }  */
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
     .text-block {
         font-size: 30px;
     }
@@ -165,7 +162,7 @@ img {
         color: black;
         text-shadow: 4px 4px 6px #2e2727;
     } 
-    }
+    } */
 
 
 
