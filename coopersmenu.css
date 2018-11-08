@@ -89,7 +89,9 @@ h5 {
 
 /* For headers section */
 @media (max-width: 500px) {
+    .headers {
     font-size: 1rem;
+    }
 }
 
 /* //For headers section */
