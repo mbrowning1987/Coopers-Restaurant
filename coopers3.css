@@ -124,7 +124,7 @@ img {
     }
 
     .text-block {
-        position: absolute;
+        position: relative;
         left: 0;
         /* top: 100%;
         width: 100%; */
