@@ -55,11 +55,16 @@ h5 {
 
 /* ALL is the default media type, but typing it for good practice */
 
+
+
+/* For span section */
 @media  (max-width: 500px) {
     span {
       visibility: hidden;
     }
     }
+/* //For span section */
+/* For h5 section */
 @media (max-width: 770px) {
     h5 {
         font-size: 1rem;
@@ -67,6 +72,8 @@ h5 {
         text-decoration-color: red;
     }
 }
+/* For //h5 section */
+/* For P section */
 
 @media (max-width: 770px) {
     p {
@@ -78,3 +85,11 @@ h5 {
         font-size: 10px;
     }
 }
+/* //For P section */
+
+/* For headers section */
+@media (max-width: 500px) {
+    font-size: 1rem;
+}
+
+/* //For headers section */
