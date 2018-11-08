@@ -102,7 +102,8 @@ img {
         background-image: url(https://s3-media2.fl.yelpcdn.com/bphoto/o9UWXh4VmqjbaQc7Acj6mQ/ls.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        min-height: 500px;
+        min-height: 600px;
+        background-size: cover;
        }
 
 
