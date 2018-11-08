@@ -126,13 +126,15 @@ img {
     .text-block {
         position: absolute;
         left: 0;
-        top: 100%;
-        width: 100%;
+        /* top: 100%;
+        width: 100%; */
         text-align: center;
         font-size: 50px;
         color: black;
         text-shadow: 4px 4px 6px #2e2727;
     }
+
+@media (max-width)
 
 
 /* .background-image {
