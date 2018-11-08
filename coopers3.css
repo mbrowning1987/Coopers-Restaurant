@@ -99,7 +99,7 @@ img {
      /*  Background Image CSS */
 
      #background {
-        background-image: url(‘path/image.jpg’);
+        background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/10/3d/30/c7/photo0jpg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
        }
