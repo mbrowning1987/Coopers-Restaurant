@@ -98,7 +98,7 @@ img {
 
      /*  Background Image CSS */
 
-     #background {
+ #background {
         background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/10/3d/30/c7/photo0jpg.jpg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -107,23 +107,23 @@ img {
        }
 
     }
-    @media (max-width:1000px) {
+ @media (max-width:1000px) {
         #background {
             min-height: 500px;
         }
     }
-    @media (max-width:770px) {
+@media (max-width:770px) {
        #background {
             min-height: 300px;
         }
     }
-    @media (max-width:500px) {
+@media (max-width:500px) {
         #background {
            min-height: 150px;
         }
     }
 
-    .text-block {
+.text-block {
         position: relative;
         left: 0;
         /* top: 100%;
@@ -134,8 +134,104 @@ img {
         text-shadow: 4px 4px 6px #2e2727;
     }
 
-@media (max-width)
+    /* This is for the paragraphs in first jumbotron */
 
+.slogan, .address {
+        font-size: 2em !important;
+    }
+@media (max-width: 1000px) {
+        #trial {
+         font-size: 25px !important;
+         text-align: center;
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+     }
+@media (max-width: 500px) {
+       #trial {
+        font-size: 15px !important;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       }
+    }
+    /* /// This is for the paragraphs in first jumbotron */
+
+
+    /*  Nav Brand (The coopers on the left side)  */
+
+.navbar-brand {
+    font-size: 2em !important;
+}
+@media (max-width:500px) {
+    .navbar-brand {
+    font-size: 1em !important;
+    }
+}
+.nav-item:hover {
+    background-color: red;
+    opacity: 0.8;
+    border-radius: 10px;
+    }
+
+ #bottom-nav:hover {
+        background-color: black;
+        color: white;
+        opacity: 0.8;
+        border-radius: 10px;
+        }
+
+    /* This is for Coopers Restaurant heading */
+#top-part {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white !important;
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+#top-part {
+    font-size: 2.5em;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+}
+@media (max-width: 500px) {
+    #top-part {
+        font-size: 1.5em;
+ }
+     /* ////This is for Coopers Restaurant heading */
+
+/* footer content  */
+@media (max-width: 500px) {
+.my-footer {
+    text-align: center;
+}
+}
+@media (max-width: 580px) {
+.container {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+}
+}
+@media (max-width:480px) {
+    .container {
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+    }
+    }
+ @media (max-width:400px) {
+        .container {
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+        }
+     }
+
+
+     /* Unused code, but i dont want to get rid of! */
 
 /* .background-image {
     position: relative;
@@ -180,113 +276,4 @@ img {
     } */
 
 
-
-
-
-
-
-    /* This is for the paragraphs in first jumbotron */
-
-    .slogan, .address {
-        font-size: 2em !important;
-    }
-    @media (max-width: 1000px) {
-        #trial {
-         font-size: 25px !important;
-         text-align: center;
-         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-     }
-    @media (max-width: 500px) {
-       #trial {
-        font-size: 15px !important;
-        text-align: center;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-       }
-    }
-    /* /// This is for the paragraphs in first jumbotron */
-
-
-    /*  Nav Brand (The coopers on the left side)  */
-
-.navbar-brand {
-    font-size: 2em !important;
-}
-@media (max-width:500px) {
-    .navbar-brand {
-    font-size: 1em !important;
-    }
-}
-.nav-item:hover {
-    background-color: red;
-    opacity: 0.8;
-    border-radius: 10px;
-    }
-
-
-    #bottom-nav:hover {
-        background-color: black;
-        color: white;
-        opacity: 0.8;
-        border-radius: 10px;
-        }
-
-    /* This is for Coopers Restaurant heading */
-#top-part {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white !important;
-    text-decoration: none;
-}
-
-@media (max-width: 1000px) {
-#top-part {
-    font-size: 2.5em;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: red;
-}
-@media (max-width: 500px) {
-    #top-part {
-        font-size: 1.5em;
- }
-     /* ////This is for Coopers Restaurant heading */
-
-
-
-
-/* footer content  */
-@media (max-width: 500px) {
-.my-footer {
-    text-align: center;
-}
-}
-
-
-
-@media (max-width: 580px) {
-.container {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-}
-}
-
-@media (max-width:480px) {
-    .container {
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
-    }
-    }
-
-    @media (max-width:400px) {
-        .container {
-            min-width: 100%;
-            min-height: 100%;
-            width: auto;
-            height: auto;
-        }
-     }
-
+/*  //End unused code, i dont want to get rid of, just in case! */
