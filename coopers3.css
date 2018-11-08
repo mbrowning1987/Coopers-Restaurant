@@ -100,7 +100,10 @@ img {
 
      #background {
         background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/10/3d/30/c7/photo0jpg.jpg);
-        background-size: auto 100%;
+        min-width: 100%;
+        min-height: 100%;
+       width: auto;
+       height: auto;
         background-repeat: no-repeat;
         min-height: 600px;
         
