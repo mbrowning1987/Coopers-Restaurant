@@ -98,7 +98,14 @@ img {
 
      /*  Background Image CSS */
 
-.background-image {
+     #background {
+        background-image: url(‘path/image.jpg’);
+        background-size: cover;
+        background-repeat: no-repeat;
+       }
+
+
+/* .background-image {
     position: relative;
     margin-bottom: 30px;
     min-width: 100%;
@@ -106,10 +113,10 @@ img {
    width: auto;
    height: auto;
    opacity: .6
-}
+} */
 
 /* This is code for centering the words in the image */
-.text-block {
+/* .text-block {
     position: absolute;
     left: 0;
     top: 100%;
@@ -118,7 +125,7 @@ img {
     font-size: 50px;
     color: black;
     text-shadow: 4px 4px 6px #2e2727;
-} 
+}  */
 
 @media (max-width: 1000px) {
     .text-block {
@@ -250,3 +257,4 @@ img {
             height: auto;
         }
      }
+
